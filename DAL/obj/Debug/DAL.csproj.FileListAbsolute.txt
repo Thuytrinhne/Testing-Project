@@ -1,0 +1,111 @@
+D:\HK3\LTTQ\winform code\QUẢN LÝ QUÁN CAFE-KTEAM\QuanLyQuanCafe\DAL\bin\Debug\DAL.dll.config
+D:\HK3\LTTQ\winform code\QUẢN LÝ QUÁN CAFE-KTEAM\QuanLyQuanCafe\DAL\bin\Debug\DAL.dll
+D:\HK3\LTTQ\winform code\QUẢN LÝ QUÁN CAFE-KTEAM\QuanLyQuanCafe\DAL\bin\Debug\DAL.pdb
+D:\HK3\LTTQ\winform code\QUẢN LÝ QUÁN CAFE-KTEAM\QuanLyQuanCafe\DAL\bin\Debug\DTO.dll
+D:\HK3\LTTQ\winform code\QUẢN LÝ QUÁN CAFE-KTEAM\QuanLyQuanCafe\DAL\bin\Debug\DTO.pdb
+D:\HK3\LTTQ\winform code\QUẢN LÝ QUÁN CAFE-KTEAM\QuanLyQuanCafe\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\HK3\LTTQ\winform code\QUẢN LÝ QUÁN CAFE-KTEAM\QuanLyQuanCafe\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\HK3\LTTQ\winform code\QUẢN LÝ QUÁN CAFE-KTEAM\QuanLyQuanCafe\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\HK3\LTTQ\winform code\QUẢN LÝ QUÁN CAFE-KTEAM\QuanLyQuanCafe\DAL\obj\Debug\DAL.dll
+D:\HK3\LTTQ\winform code\QUẢN LÝ QUÁN CAFE-KTEAM\QuanLyQuanCafe\DAL\obj\Debug\DAL.pdb
+D:\HK5\Testing\QuanLyQuanCafe\DAL\bin\Debug\DAL.dll.config
+D:\HK5\Testing\QuanLyQuanCafe\DAL\bin\Debug\DAL.dll
+D:\HK5\Testing\QuanLyQuanCafe\DAL\bin\Debug\DAL.pdb
+D:\HK5\Testing\QuanLyQuanCafe\DAL\bin\Debug\DTO.dll
+D:\HK5\Testing\QuanLyQuanCafe\DAL\bin\Debug\DTO.pdb
+D:\HK5\Testing\QuanLyQuanCafe\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\HK5\Testing\QuanLyQuanCafe\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\HK5\Testing\QuanLyQuanCafe\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\HK5\Testing\QuanLyQuanCafe\DAL\obj\Debug\DAL.dll
+D:\HK5\Testing\QuanLyQuanCafe\DAL\obj\Debug\DAL.pdb
+D:\HK5\Testing\QuanLyQuanCafe\DAL\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\HK5\Testing\QuanLyQuanCafe\DAL\bin\Debug\System.Security.AccessControl.dll
+D:\HK5\Testing\QuanLyQuanCafe\DAL\bin\Debug\System.Security.Permissions.dll
+D:\HK5\Testing\QuanLyQuanCafe\DAL\bin\Debug\System.Security.Principal.Windows.dll
+D:\HK5\Testing\QuanLyQuanCafe\DAL\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\HK5\Testing\QuanLyQuanCafe\DAL\bin\Debug\System.Security.AccessControl.xml
+D:\HK5\Testing\QuanLyQuanCafe\DAL\bin\Debug\System.Security.Permissions.xml
+D:\HK5\Testing\QuanLyQuanCafe\DAL\bin\Debug\System.Security.Principal.Windows.xml
+<<<<<<< HEAD
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\DAL.dll.config
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\DAL.dll
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\DAL.pdb
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\DTO.dll
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\Microsoft.Extensions.Options.dll
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\System.Buffers.dll
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\System.Collections.Immutable.dll
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\System.ComponentModel.Annotations.dll
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\System.Memory.dll
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\System.Numerics.Vectors.dll
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\System.Security.AccessControl.dll
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\System.Security.Permissions.dll
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\System.Security.Principal.Windows.dll
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\DTO.pdb
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\DTO.dll.config
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\Microsoft.Extensions.Options.xml
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\System.Buffers.xml
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\System.Collections.Immutable.xml
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\System.Memory.xml
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\System.Numerics.Vectors.xml
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\System.Security.AccessControl.xml
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\System.Security.Permissions.xml
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\System.Security.Principal.Windows.xml
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\obj\Debug\DAL.dll
+D:\HK5\Testing\Testing-c---CafeManagement\DAL\obj\Debug\DAL.pdb
+=======
+H:\Souce test\Testing_CafeManagement\DAL\bin\Debug\DAL.dll.config
+H:\Souce test\Testing_CafeManagement\DAL\bin\Debug\DAL.dll
+H:\Souce test\Testing_CafeManagement\DAL\bin\Debug\DAL.pdb
+H:\Souce test\Testing_CafeManagement\DAL\bin\Debug\DTO.dll
+H:\Souce test\Testing_CafeManagement\DAL\bin\Debug\System.Configuration.ConfigurationManager.dll
+H:\Souce test\Testing_CafeManagement\DAL\bin\Debug\System.Security.AccessControl.dll
+H:\Souce test\Testing_CafeManagement\DAL\bin\Debug\System.Security.Permissions.dll
+H:\Souce test\Testing_CafeManagement\DAL\bin\Debug\System.Security.Principal.Windows.dll
+H:\Souce test\Testing_CafeManagement\DAL\bin\Debug\DTO.pdb
+H:\Souce test\Testing_CafeManagement\DAL\bin\Debug\System.Configuration.ConfigurationManager.xml
+H:\Souce test\Testing_CafeManagement\DAL\bin\Debug\System.Security.AccessControl.xml
+H:\Souce test\Testing_CafeManagement\DAL\bin\Debug\System.Security.Permissions.xml
+H:\Souce test\Testing_CafeManagement\DAL\bin\Debug\System.Security.Principal.Windows.xml
+H:\Souce test\Testing_CafeManagement\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+H:\Souce test\Testing_CafeManagement\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+H:\Souce test\Testing_CafeManagement\DAL\obj\Debug\DAL.csproj.CopyComplete
+H:\Souce test\Testing_CafeManagement\DAL\obj\Debug\DAL.dll
+H:\Souce test\Testing_CafeManagement\DAL\obj\Debug\DAL.pdb
+>>>>>>> 0543136eb0d0430ba9996fe3f399aa961376e02f
