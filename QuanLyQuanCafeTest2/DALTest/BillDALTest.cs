@@ -234,7 +234,7 @@ public class BillDALTest
         // call action
         bool actual = BillDAL.Instance.huyBill(maBill);
 
-        // compare
+        // compare 
         Assert.IsFalse(actual);
     }
     #endregion
