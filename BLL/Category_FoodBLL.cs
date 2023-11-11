@@ -92,7 +92,7 @@ namespace BLL
         }
         public static bool xoaLoaiMonAn(int id)
         {
-            return CategoryDAL.xoaLoaiMonAn(id);
+            return CategoryDAL.Instance.xoaLoaiMonAn(id);
         }
     }
 }

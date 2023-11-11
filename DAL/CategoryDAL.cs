@@ -93,7 +93,7 @@ namespace DAL
         {
            return  CategoryDataProvider.Instance.executeSearchStoreProcedure(name);
         }
-       public static bool xoaLoaiMonAn(int id)
+       public bool xoaLoaiMonAn(int id)
         {
             try
             {

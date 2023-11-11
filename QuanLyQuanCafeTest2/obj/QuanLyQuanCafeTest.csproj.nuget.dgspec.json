@@ -1,41 +1,22 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "D:\\HK5\\Testing\\Testing-c---CafeManagement\\QuanLyQuanCafeTest2\\QuanLyQuanCafeTest.csproj": {}
+    "D:\\HK5\\Testing\\Testing-Project\\QuanLyQuanCafeTest2\\QuanLyQuanCafeTest.csproj": {}
   },
   "projects": {
-    "D:\\HK5\\Testing\\Testing-c---CafeManagement\\BLL\\BLL.csproj": {
+    "D:\\HK5\\Testing\\Testing-Project\\BLL\\BLL.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\HK5\\Testing\\Testing-c---CafeManagement\\BLL\\BLL.csproj",
+        "projectUniqueName": "D:\\HK5\\Testing\\Testing-Project\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "D:\\HK5\\Testing\\Testing-c---CafeManagement\\BLL\\BLL.csproj",
+        "projectPath": "D:\\HK5\\Testing\\Testing-Project\\BLL\\BLL.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "D:\\HK5\\Testing\\Testing-c---CafeManagement\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\HK5\\Testing\\Testing-c---CafeManagement\\DAL\\DAL.csproj"
+              "D:\\HK5\\Testing\\Testing-Project\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\HK5\\Testing\\Testing-Project\\DAL\\DAL.csproj"
               },
-              "D:\\HK5\\Testing\\Testing-c---CafeManagement\\DTO\\DTO.csproj": {
-                "projectPath": "D:\\HK5\\Testing\\Testing-c---CafeManagement\\DTO\\DTO.csproj"
-=======
-    "H:\\Souce test\\Testing_CafeManagement\\QuanLyQuanCafeTest2\\QuanLyQuanCafeTest.csproj": {}
-  },
-  "projects": {
-    "H:\\Souce test\\Testing_CafeManagement\\BLL\\BLL.csproj": {
-      "restore": {
-        "projectUniqueName": "H:\\Souce test\\Testing_CafeManagement\\BLL\\BLL.csproj",
-        "projectName": "BLL",
-        "projectPath": "H:\\Souce test\\Testing_CafeManagement\\BLL\\BLL.csproj",
-        "frameworks": {
-          "net472": {
-            "projectReferences": {
-              "H:\\Souce test\\Testing_CafeManagement\\DAL\\DAL.csproj": {
-                "projectPath": "H:\\Souce test\\Testing_CafeManagement\\DAL\\DAL.csproj"
-              },
-              "H:\\Souce test\\Testing_CafeManagement\\DTO\\DTO.csproj": {
-                "projectPath": "H:\\Souce test\\Testing_CafeManagement\\DTO\\DTO.csproj"
->>>>>>> 0543136eb0d0430ba9996fe3f399aa961376e02f
+              "D:\\HK5\\Testing\\Testing-Project\\DTO\\DTO.csproj": {
+                "projectPath": "D:\\HK5\\Testing\\Testing-Project\\DTO\\DTO.csproj"
               }
             }
           }
@@ -45,29 +26,16 @@
         "net472": {}
       }
     },
-<<<<<<< HEAD
-    "D:\\HK5\\Testing\\Testing-c---CafeManagement\\DAL\\DAL.csproj": {
+    "D:\\HK5\\Testing\\Testing-Project\\DAL\\DAL.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\HK5\\Testing\\Testing-c---CafeManagement\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\HK5\\Testing\\Testing-Project\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\HK5\\Testing\\Testing-c---CafeManagement\\DAL\\DAL.csproj",
+        "projectPath": "D:\\HK5\\Testing\\Testing-Project\\DAL\\DAL.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "D:\\HK5\\Testing\\Testing-c---CafeManagement\\DTO\\DTO.csproj": {
-                "projectPath": "D:\\HK5\\Testing\\Testing-c---CafeManagement\\DTO\\DTO.csproj"
-=======
-    "H:\\Souce test\\Testing_CafeManagement\\DAL\\DAL.csproj": {
-      "restore": {
-        "projectUniqueName": "H:\\Souce test\\Testing_CafeManagement\\DAL\\DAL.csproj",
-        "projectName": "DAL",
-        "projectPath": "H:\\Souce test\\Testing_CafeManagement\\DAL\\DAL.csproj",
-        "frameworks": {
-          "net472": {
-            "projectReferences": {
-              "H:\\Souce test\\Testing_CafeManagement\\DTO\\DTO.csproj": {
-                "projectPath": "H:\\Souce test\\Testing_CafeManagement\\DTO\\DTO.csproj"
->>>>>>> 0543136eb0d0430ba9996fe3f399aa961376e02f
+              "D:\\HK5\\Testing\\Testing-Project\\DTO\\DTO.csproj": {
+                "projectPath": "D:\\HK5\\Testing\\Testing-Project\\DTO\\DTO.csproj"
               }
             }
           }
@@ -77,19 +45,11 @@
         "net472": {}
       }
     },
-<<<<<<< HEAD
-    "D:\\HK5\\Testing\\Testing-c---CafeManagement\\DTO\\DTO.csproj": {
+    "D:\\HK5\\Testing\\Testing-Project\\DTO\\DTO.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\HK5\\Testing\\Testing-c---CafeManagement\\DTO\\DTO.csproj",
+        "projectUniqueName": "D:\\HK5\\Testing\\Testing-Project\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "D:\\HK5\\Testing\\Testing-c---CafeManagement\\DTO\\DTO.csproj",
-=======
-    "H:\\Souce test\\Testing_CafeManagement\\DTO\\DTO.csproj": {
-      "restore": {
-        "projectUniqueName": "H:\\Souce test\\Testing_CafeManagement\\DTO\\DTO.csproj",
-        "projectName": "DTO",
-        "projectPath": "H:\\Souce test\\Testing_CafeManagement\\DTO\\DTO.csproj",
->>>>>>> 0543136eb0d0430ba9996fe3f399aa961376e02f
+        "projectPath": "D:\\HK5\\Testing\\Testing-Project\\DTO\\DTO.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -100,28 +60,21 @@
         "net472": {}
       }
     },
-<<<<<<< HEAD
-    "D:\\HK5\\Testing\\Testing-c---CafeManagement\\QuanLyQuanCafeTest2\\QuanLyQuanCafeTest.csproj": {
+    "D:\\HK5\\Testing\\Testing-Project\\QuanLyQuanCafeTest2\\QuanLyQuanCafeTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HK5\\Testing\\Testing-c---CafeManagement\\QuanLyQuanCafeTest2\\QuanLyQuanCafeTest.csproj",
+        "projectUniqueName": "D:\\HK5\\Testing\\Testing-Project\\QuanLyQuanCafeTest2\\QuanLyQuanCafeTest.csproj",
         "projectName": "QuanLyQuanCafeTest",
-        "projectPath": "D:\\HK5\\Testing\\Testing-c---CafeManagement\\QuanLyQuanCafeTest2\\QuanLyQuanCafeTest.csproj",
+        "projectPath": "D:\\HK5\\Testing\\Testing-Project\\QuanLyQuanCafeTest2\\QuanLyQuanCafeTest.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\HK5\\Testing\\Testing-c---CafeManagement\\QuanLyQuanCafeTest2\\obj\\",
-=======
-    "H:\\Souce test\\Testing_CafeManagement\\QuanLyQuanCafeTest2\\QuanLyQuanCafeTest.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "H:\\Souce test\\Testing_CafeManagement\\QuanLyQuanCafeTest2\\QuanLyQuanCafeTest.csproj",
-        "projectName": "QuanLyQuanCafeTest",
-        "projectPath": "H:\\Souce test\\Testing_CafeManagement\\QuanLyQuanCafeTest2\\QuanLyQuanCafeTest.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "H:\\Souce test\\Testing_CafeManagement\\QuanLyQuanCafeTest2\\obj\\",
->>>>>>> 0543136eb0d0430ba9996fe3f399aa961376e02f
+        "outputPath": "D:\\HK5\\Testing\\Testing-Project\\QuanLyQuanCafeTest2\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -129,31 +82,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-<<<<<<< HEAD
-              "D:\\HK5\\Testing\\Testing-c---CafeManagement\\BLL\\BLL.csproj": {
-                "projectPath": "D:\\HK5\\Testing\\Testing-c---CafeManagement\\BLL\\BLL.csproj"
+              "D:\\HK5\\Testing\\Testing-Project\\BLL\\BLL.csproj": {
+                "projectPath": "D:\\HK5\\Testing\\Testing-Project\\BLL\\BLL.csproj"
               },
-              "D:\\HK5\\Testing\\Testing-c---CafeManagement\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\HK5\\Testing\\Testing-c---CafeManagement\\DAL\\DAL.csproj"
+              "D:\\HK5\\Testing\\Testing-Project\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\HK5\\Testing\\Testing-Project\\DAL\\DAL.csproj"
               },
-              "D:\\HK5\\Testing\\Testing-c---CafeManagement\\DTO\\DTO.csproj": {
-                "projectPath": "D:\\HK5\\Testing\\Testing-c---CafeManagement\\DTO\\DTO.csproj"
-=======
-              "H:\\Souce test\\Testing_CafeManagement\\BLL\\BLL.csproj": {
-                "projectPath": "H:\\Souce test\\Testing_CafeManagement\\BLL\\BLL.csproj"
-              },
-              "H:\\Souce test\\Testing_CafeManagement\\DAL\\DAL.csproj": {
-                "projectPath": "H:\\Souce test\\Testing_CafeManagement\\DAL\\DAL.csproj"
-              },
-              "H:\\Souce test\\Testing_CafeManagement\\DTO\\DTO.csproj": {
-                "projectPath": "H:\\Souce test\\Testing_CafeManagement\\DTO\\DTO.csproj"
->>>>>>> 0543136eb0d0430ba9996fe3f399aa961376e02f
+              "D:\\HK5\\Testing\\Testing-Project\\DTO\\DTO.csproj": {
+                "projectPath": "D:\\HK5\\Testing\\Testing-Project\\DTO\\DTO.csproj"
               }
             }
           }
@@ -168,7 +111,6 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-<<<<<<< HEAD
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.32, )"
@@ -177,11 +119,33 @@
               "target": "Package",
               "version": "[17.3.2, )"
             },
-=======
->>>>>>> 0543136eb0d0430ba9996fe3f399aa961376e02f
             "Moq": {
               "target": "Package",
               "version": "[4.20.69, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
             }
           },
           "imports": [
@@ -190,11 +154,17 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

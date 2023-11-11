@@ -6,6 +6,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO.Ports;
 
 namespace DAL.DataProviders
 {
@@ -100,6 +101,19 @@ namespace DAL.DataProviders
             return base.executeStoreProcedureNoReturnTable("chuyenBan", parameters);
 
         }
+        public virtual bool executeDiscountQuery(int maBill, decimal discount)
+        {
+            SqlParameter[] parameters = new SqlParameter[]
+            {
+                    new SqlParameter("@id", SqlDbType.Int),
+                    new SqlParameter("@discount", SqlDbType.Int),
+            };
+            parameters[0].Value = maBill;
+            parameters[1].Value = discount;
+
+            return base.executeStoreProcedureNoReturnTable("capNhatDiscount", parameters);
+
+        }
         public virtual DataTable executeReportPaginateQuery(int page, DateTime dateStart, DateTime dateEnd)
         {
             SqlParameter[] parameters = new SqlParameter[]
@@ -126,6 +140,18 @@ namespace DAL.DataProviders
             parameters[0].Value = dateStart;
             parameters[1].Value = dateEnd;
             return base.executeStoreProcedure("HienThiTongDoanhThu", parameters);
+        }
+        public virtual DataTable executeSalesReport(DateTime dateStart, DateTime dateEnd)
+        {
+            SqlParameter[] parameters = new SqlParameter[]
+            {
+             new SqlParameter("@dateStart", SqlDbType.Date),
+             new SqlParameter("@dateEnd", SqlDbType.Date),
+            };
+
+            parameters[0].Value = dateStart;
+            parameters[1].Value = dateEnd;
+            return base.executeStoreProcedure("HienThiDoanhThuForReport", parameters);
         }
 
     }

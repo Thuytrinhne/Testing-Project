@@ -161,13 +161,100 @@ public class BillDALTest
         _mockDataProvider.Setup(m => m.executeTotalReport(It.IsAny<DateTime>(), It.IsAny<DateTime>())).Returns(dataTable);
 
         // call action
-        int actual = BillDAL.hienThiTongDanhThu(DateTime.Now, DateTime.Now);
+        int actual = BillDAL.Instance.hienThiTongDanhThu(DateTime.Now, DateTime.Now);
 
         //compare
         Assert.AreEqual(1000, actual);
     }
     #endregion
+    #region CapNhatDiscount
+    [Test]
+    [TestCase(1, 0.1, true)]
+    [TestCase(2, 0.2, false)]
+    public void TestCapNhatDiscount(int maBill, decimal discount, bool expected)
+    {
+        // setup method
+        _mockDataProvider.Setup(m => m.executeDiscountQuery (maBill, discount)).Returns(expected);
 
-    // Tương tự, bạn có thể viết các hàm kiểm tra cho các phương thức khác của lớp BillDAL
-    // như capNhatDiscount, getSizeOfBill, getDiscount, huyBill, xoaBill_Infor, HienThiDoanhThuForReport
+        // call action
+        bool actual = BillDAL.Instance.capNhatDiscount(maBill, discount);
+
+        // compare
+        Assert.AreEqual(expected, actual);
+    }
+    #endregion
+
+    #region GetSizeOfBill
+    [Test]
+    public void TestGetSizeOfBill_ReturnsCountOfBills_WhenExecuteScalarReturnsCount()
+    {
+        // setup method
+        DateTime dateStart = new DateTime(2022, 1, 1);
+        DateTime dateEnd = new DateTime(2022, 1, 31);
+        string expectedQuery = "select count(id) from bill where (dateCheckIn between '2022-01-01' and '2022-01-31 23:59:59') and status = 1";
+        int expectedCount = 10;
+        _mockDataProvider.Setup(m => m.executeScalar(expectedQuery)).Returns(expectedCount);
+
+        // call action
+        int actual = BillDAL.Instance.getSizeOfBill(dateStart, dateEnd);
+
+        // compare
+        Assert.AreEqual(expectedCount, actual);
+    }
+    #endregion
+
+    #region GetDiscount
+    [Test]
+    public void TestGetDiscount_ReturnsDiscount_WhenExecuteScalarReturnsDiscount()
+    {
+        // setup method
+        int maBill = 1;
+        string expectedQuery = "select discount from bill where id = 1";
+        int expectedDiscount = 4;
+        _mockDataProvider.Setup(m => m.executeScalar(expectedQuery)).Returns(expectedDiscount);
+
+        // call action
+        int actual = BillDAL.Instance.getDiscount(maBill);
+
+        // compare
+        Assert.AreEqual(expectedDiscount, actual);
+    }
+    #endregion
+
+    #region HuyBill
+    [Test]
+    public void TestHuyBill_ReturnsFalse_WhenXoaBill_InforReturnsFalse()
+    {
+        // setup method
+        int maBill = 1;
+        string expectedDeleteQuery = "delete from Bill where id = @ma";
+        _mockDataProvider.Setup(m => m.executeDeleteQuery(expectedDeleteQuery, maBill)).Returns(true);
+        _mockDataProvider.Setup(m => m.executeDeleteQuery(It.IsAny<string>(), maBill)).Returns(false);
+
+        // call action
+        bool actual = BillDAL.Instance.huyBill(maBill);
+
+        // compare
+        Assert.IsFalse(actual);
+    }
+    #endregion
+
+    #region HienThiDoanhThuForReport
+    [Test]
+    public void TestHienThiDoanhThuForReport_ReturnsDataTable_WhenExecuteSalesReportReturnsDataTable()
+    {
+        // setup method
+        DateTime dateStart = new DateTime(2022, 1, 1);
+        DateTime dateEnd = new DateTime(2022, 1, 31);
+        DataTable expectedDataTable = new DataTable();
+        _mockDataProvider.Setup(m => m.executeSalesReport(dateStart, dateEnd)).Returns(expectedDataTable);
+
+        // call action
+        DataTable actual = BillDAL.Instance.HienThiDoanhThuForReport(dateStart, dateEnd);
+
+        // compare
+        Assert.AreEqual(expectedDataTable, actual);
+    }
+    #endregion
+
 }

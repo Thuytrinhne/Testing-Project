@@ -103,7 +103,7 @@ namespace DAL
 
 
         }
-        public static bool xoaMonAn( int id)
+        public bool xoaMonAn( int id)
         {
             try
             {

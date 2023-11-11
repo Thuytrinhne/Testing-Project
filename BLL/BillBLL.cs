@@ -48,15 +48,15 @@ namespace BLL
         }
         public static int getSizeOfBill(DateTime dateStart, DateTime dateEnd)
         {
-            return BillDAL.getSizeOfBill(dateStart, dateEnd);
+            return BillDAL.Instance.getSizeOfBill(dateStart, dateEnd);
         }
         public static int hienThiTongDanhThu(DateTime dateStart, DateTime dateEnd)
         {
-            return BillDAL.hienThiTongDanhThu(dateStart, dateEnd);
+            return BillDAL.Instance.hienThiTongDanhThu(dateStart, dateEnd);
         }
         public static  DataTable HienThiDoanhThuForReport(DateTime dateStart, DateTime dateEnd)
         {
-            return BillDAL.HienThiDoanhThuForReport(dateStart, dateEnd);
+            return BillDAL.Instance.HienThiDoanhThuForReport(dateStart, dateEnd);
         }
     }
 }

@@ -221,7 +221,7 @@ namespace QuanLyQuanCafeTest.DALTest
             _mockDataProvider.Setup(m => m.executeDeleteQuery(It.IsAny<string>(), id)).Returns(expected);
 
             // call action
-            bool actual = FoodDAL.xoaMonAn(id);
+            bool actual = FoodDAL.Instance.xoaMonAn(id);
 
             //compare
             Assert.AreEqual(expected, actual);

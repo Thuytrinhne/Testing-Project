@@ -1,9 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "+TN/TsEHb9zt1x1NLm1NSSWvHA9ZccKeu89JdbzwOwemo9twZ206SkL5TU4oxGt/Upem4STJIbMqkx1KH7A3lA==",
+  "dgSpecHash": "ck1VDcu0kIFwq2kzDm4EdlojW6kxdFGNkN99tyQwmZcD6HbeGQx3P5y3Si3Ze3MT55BiWDKRE2S1fGen5YeUbw==",
   "success": true,
-  "projectFilePath": "D:\\HK5\\Testing\\Testing-c---CafeManagement\\QuanLyQuanCafeTest2\\QuanLyQuanCafeTest.csproj",
+  "projectFilePath": "D:\\HK5\\Testing\\Testing-Project\\QuanLyQuanCafeTest2\\QuanLyQuanCafeTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
@@ -88,15 +87,6 @@
     "C:\\Users\\ADMIN\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512"
-=======
-  "dgSpecHash": "NADLy4zwO8Lg2WkY/mM1ivLNujP1yinSLMToYLowJ/guO5sJYjg4ZMb0TLzOW3XiYUzV9iQ0o/Qo9ZxJ/K6ygw==",
-  "success": true,
-  "projectFilePath": "H:\\Souce test\\Testing_CafeManagement\\QuanLyQuanCafeTest2\\QuanLyQuanCafeTest.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\user\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\moq\\4.20.69\\moq.4.20.69.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512"
->>>>>>> 0543136eb0d0430ba9996fe3f399aa961376e02f
   ],
   "logs": []
 }

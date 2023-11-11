@@ -156,6 +156,17 @@ namespace DAL
 
 
         }
+        public virtual int executeScalar(string q)
+        {
+            Sql_Connection.Instance.openCon();
+            SqlCommand cmd = new SqlCommand();
+
+            cmd.CommandText = q;
+            cmd.Connection = Sql_Connection.Instance.sqlCon;
+
+            int kq = (int)cmd.ExecuteScalar();
+            return kq;
+        }
 
 
     }

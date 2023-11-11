@@ -81,7 +81,7 @@ namespace DAL
             return BillDataProvider.Instance.executeReportPaginateQuery(page, dateStart, dateEnd);
 
         }
-        public static int  hienThiTongDanhThu(DateTime dateStart,DateTime dateEnd)
+        public  int  hienThiTongDanhThu(DateTime dateStart,DateTime dateEnd)
         {
 
             DataTable d = BillDataProvider.Instance.executeTotalReport(dateStart, dateEnd);
@@ -103,79 +103,41 @@ namespace DAL
 
         public bool capNhatDiscount(int maBill,decimal  discount)
         {
-            Sql_Connection.Instance.openCon();
+            
 
-            SqlCommand cmd = new SqlCommand();
-            cmd.CommandType = CommandType.StoredProcedure;
-            cmd.CommandText = "capNhatDiscount";
-
-            SqlParameter parid = new SqlParameter("@id", SqlDbType.Int);
-            SqlParameter parDis = new SqlParameter("@discount", SqlDbType.Int);
-            parid.Value = maBill;
-            parDis.Value =(int) discount;
-
-            cmd.Parameters.Add(parid);
-            cmd.Parameters.Add(parDis);
-            cmd.Connection= Sql_Connection.Instance.sqlCon;
-
-            int kq = cmd.ExecuteNonQuery();
-            if (kq<0)
+            bool kq = BillDataProvider.Instance.executeDiscountQuery(maBill, discount);
+            if (kq)
             {
-                return false;
+                return true;
             }
-            return true;
+            return false;
 
 
         }
-        public static int getSizeOfBill(DateTime dateStart, DateTime dateEnd)
+        public  int getSizeOfBill(DateTime dateStart, DateTime dateEnd)
         {
-            Sql_Connection.Instance.openCon();
-            SqlCommand cmd = new SqlCommand();
-            cmd.CommandType = CommandType.Text;
             String dateStartString = dateStart.ToString("yyyy-MM-dd");
-            String dateEndString = dateEnd.ToString("yyyy-MM-dd")+" 23:59:59";
-            //string query = string.Format("select count(id) from bill where dateCheckIn between {0} and {1}", dateStart, dateEnd);
-            cmd.CommandText = "select count(id) from bill where (dateCheckIn between '" + dateStartString  + "' and '" + dateEndString+"') and status = 1";
+            String dateEndString = dateEnd.ToString("yyyy-MM-dd") + " 23:59:59";
+            string q = "select count(id) from bill where (dateCheckIn between '" + dateStartString + "' and '" + dateEndString + "') and status = 1";
+            return BillDataProvider.Instance.executeScalar(q);
             
-            cmd.Connection = Sql_Connection.Instance.sqlCon;
-
-           int kq = (int)cmd.ExecuteScalar();
-           return kq;
 
         }
         public int getDiscount (int maBill)
         {
-            Sql_Connection.Instance.openCon();
-            SqlCommand cmd = new SqlCommand();
-            cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "select discount from bill where id = " + maBill;
-            cmd.Connection = Sql_Connection.Instance.sqlCon;
-
-
-            int kq =int.Parse(cmd.ExecuteScalar().ToString().Trim());
-
-            return kq;
-
+       
+ 
+            string q = "select discount from bill where id = " + maBill;
+            return BillDataProvider.Instance.executeScalar(q);
 
         }
         public bool huyBill(int maBill)
         {
             // xóa bill infor
-            
-
-
-
+            string q = "delete from Bill where id = @ma" ;
             if (!xoaBill_Infor(maBill))
                 return false;
-            Sql_Connection.Instance.openCon();
-            SqlCommand cmd = new SqlCommand();
-            cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "delete from Bill where id = " + maBill;
-            cmd.Connection = Sql_Connection.Instance.sqlCon;
-
-            int kq = cmd.ExecuteNonQuery();
-            if (kq < 0) { return false; }
-            return true;
+            return BillDataProvider.Instance.executeDeleteQuery(q, maBill);
 
 
 
@@ -183,37 +145,16 @@ namespace DAL
 
         private bool xoaBill_Infor(int maBill)
         {
-            Sql_Connection.Instance.openCon();
-            SqlCommand cmd = new SqlCommand();
-            cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "delete from Bill_infor where idBill = " + maBill;
-            cmd.Connection = Sql_Connection.Instance.sqlCon;
 
-            int kq = cmd.ExecuteNonQuery();
-           if (kq<0) { return false; }
-            return true;
+            string q = "delete from Bill_infor where idBill = @ma";
+            return BillDataProvider.Instance.executeDeleteQuery(q, maBill);
+
 
 
         }
-        public static  DataTable HienThiDoanhThuForReport( DateTime dateStart, DateTime dateEnd)
+        public   DataTable HienThiDoanhThuForReport( DateTime dateStart, DateTime dateEnd)
         {
-            DataTable dataTable = new DataTable();
-            Sql_Connection.Instance.openCon();
-            SqlCommand cmd = new SqlCommand();
-            cmd.CommandType = CommandType.StoredProcedure;
-            cmd.CommandText = "HienThiDoanhThuForReport";
-            SqlParameter parD1 = new SqlParameter("@dateStart", SqlDbType.Date);
-            SqlParameter parD2 = new SqlParameter("@dateEnd", SqlDbType.Date);
-
-            parD1.Value = dateStart;
-            parD2.Value = dateEnd;
-            cmd.Parameters.Add(parD1);
-            cmd.Parameters.Add(parD2);
-
-            cmd.Connection = Sql_Connection.Instance.sqlCon;
-            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
-            adapter.Fill(dataTable);
-            return dataTable;
+           return BillDataProvider.Instance.executeSalesReport(dateStart, dateEnd);
 
 
         }

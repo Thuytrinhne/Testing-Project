@@ -130,7 +130,7 @@ namespace BLL
         }
         public static bool xoaMonAn(int id)
         {
-            return FoodDAL.xoaMonAn(id);
+            return FoodDAL.Instance.xoaMonAn(id);
         }
     }
 }
